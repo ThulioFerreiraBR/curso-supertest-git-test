@@ -23,9 +23,9 @@ jobs:
     - name: Run Jest tests
       run: npm run test:file
 
-    - name: Upload HTML report
+    - name: Deploy report to GitHub Pages
       if: always()
-      uses: actions/upload-artifact@v4
+      uses: peaceiris/actions-gh-pages@v4
       with:
-        name: jest-report
-        path: reports/
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./reports
