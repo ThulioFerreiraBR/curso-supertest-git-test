@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:file": "jest specs/thulioBrands.spec.ts"
+    "test:file": "npx jest specs/thulioBrands.spec.ts"
   },
   "keywords": [],
   "author": "",
