@@ -23,7 +23,10 @@ jobs:
     - name: Run Jest tests
       run: npm run test:file
 
-    - name: Deploy report to GitHub Pages
+    - name: Debug reports
+      run: ls -R reports || echo "sem report"
+
+    - name: Deploy report
       if: always()
       uses: peaceiris/actions-gh-pages@v4
       with:
