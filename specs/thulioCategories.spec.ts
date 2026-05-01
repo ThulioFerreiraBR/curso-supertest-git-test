@@ -1,6 +1,7 @@
 import config from '../config/thulioBase.config'
 import controller from '../controller/thulioCategories.controller'
 import { getCategoryId, login } from '../utils/thulioHelper';
+// test
 
 describe('Categories', () => {
 
