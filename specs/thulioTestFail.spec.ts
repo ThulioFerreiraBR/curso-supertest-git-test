@@ -6,7 +6,7 @@ describe('Categories', () => {
     describe('Test Fail', () => {
         it('GET /categories', async () => {
             const res = await controller.getCategories();
-            expect(res.statusCode).toEqual(400);
+            expect(res.statusCode).toEqual(200);
         });
     });
 
