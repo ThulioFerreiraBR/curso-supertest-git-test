@@ -31,6 +31,14 @@ Após cada execução do pipeline, um relatório HTML é gerado contendo:
 
 ---
 
+### 🌐 Acesso ao Report
+
+O relatório pode também ser acessado diretamente através de uma URL pública gerada pelo pipeline:
+
+👉 [Clique aqui para visualizar o último report](https://thulioferreirabr.github.io/curso-supertest-git-test/)
+
+---
+
 ## 💡 Destaque Técnico
 
 A integração com GitHub Actions foi implementada para simular um fluxo real de CI/CD utilizado em ambientes corporativos, garantindo execução contínua e rastreabilidade dos testes automatizados.
