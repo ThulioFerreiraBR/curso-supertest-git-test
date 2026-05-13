@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:file": "npm test -- specs/thulioTestFail.spec.ts"
+    "test:file": "npm test -- specs"
   },
   "keywords": [],
   "author": "",
