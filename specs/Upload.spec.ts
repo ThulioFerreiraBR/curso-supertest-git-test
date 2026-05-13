@@ -1,4 +1,4 @@
-import controller from '../controller/thulioUpload.controller';
+import controller from '../controller/Upload.controller';
 
 describe('Upload File', () => {
   it('POST /upload/single', async () => {

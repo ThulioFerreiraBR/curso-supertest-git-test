@@ -1,5 +1,5 @@
-import config from '../config/thulioBase.config'
-import controller from '../controller/thulioCategories.controller'
+import config from '../config/Base.config'
+import controller from '../controller/Categories.controller'
 
 describe('Categories', () => {
 

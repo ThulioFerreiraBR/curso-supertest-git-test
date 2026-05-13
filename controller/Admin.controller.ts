@@ -1,5 +1,5 @@
 import supertest = require("supertest");
-import config from '..//config/thulioBase.config';
+import config from '../config/Base.config';
 
 const request = supertest(config.baseUrl)
 

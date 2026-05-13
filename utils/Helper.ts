@@ -1,5 +1,5 @@
-import adminController from "../controller/thulioAdmin.controller";
-import categoriesController from '../controller/thulioCategories.controller';
+import adminController from "../controller/Admin.controller";
+import categoriesController from '../controller/Categories.controller';
 
 export const login = async (email: string, password: string) => {
   const body = { "email": email, "password": password }

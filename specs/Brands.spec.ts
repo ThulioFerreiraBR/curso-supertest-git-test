@@ -1,4 +1,4 @@
-import controller from '../controller/thulioBrand.controller';
+import controller from '../controller/Brand.controller';
 
 describe('Brands', () => {
 

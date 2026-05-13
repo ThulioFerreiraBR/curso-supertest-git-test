@@ -1,6 +1,6 @@
-import config from '../config/thulioBase.config'
-import controller from '../controller/thulioCategories.controller'
-import { getCategoryId, login } from '../utils/thulioHelper';
+import config from '../config/Base.config'
+import controller from '../controller/Categories.controller'
+import { getCategoryId, login } from '../utils/Helper';
 
 describe('Categories', () => {
 
