@@ -31,14 +31,6 @@ Após cada execução do pipeline, um relatório HTML é gerado contendo:
 
 ---
 
-### 🌐 Acesso ao Report
-
-O relatório pode também ser acessado diretamente através de uma URL pública gerada pelo pipeline:
-
-👉 [Clique aqui para visualizar o último report](COLOQUE_AQUI_SUA_URL)
-
----
-
 ## 💡 Destaque Técnico
 
 A integração com GitHub Actions foi implementada para simular um fluxo real de CI/CD utilizado em ambientes corporativos, garantindo execução contínua e rastreabilidade dos testes automatizados.
