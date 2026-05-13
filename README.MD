@@ -1,3 +1,23 @@
+# QA API Automation - CRUD Categories (Learning Project)
+
+## 📌 About
+
+This project was developed as a learning exercise to practice API automation using Supertest and Jest.
+
+It focuses on CRUD operations with authentication flow and basic test structure organization.
+
+---
+
+## 🎯 What I practiced
+
+- API testing with Supertest
+- CRUD operations (GET, POST, PUT, DELETE)
+- Authentication using JWT token
+- Test organization using Jest
+- Setup/teardown with beforeAll/afterAll
+
+---
+
 ## 🔄 CI/CD (GitHub Actions)
 
 Este projeto possui integração com GitHub Actions, executando automaticamente a suíte de testes a cada push ou pull request na branch principal.
